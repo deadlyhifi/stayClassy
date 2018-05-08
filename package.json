@@ -1,0 +1,36 @@
+{
+  "name": "stayclassy",
+  "version": "1.0.0",
+  "description": "The simplest JS utility for joining CSS classnames.",
+  "main": "./dist/index.js",
+  "author": "Tom de Bruin",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deadlyhifi/stayClassy.git"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.5",
+    "typescript": "^2.8.3"
+  }
+}
