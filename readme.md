@@ -6,7 +6,7 @@ you can use a simple little utility such as **stayClassy**, which has no depende
 Put this in:
 
 ```
-import stayClassy from 'stayClassy';
+import stayClassy from 'stayclassy';
 
 stayClassy(
     ['fixed-one', 'fixed-two'],
