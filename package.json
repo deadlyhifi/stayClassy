@@ -1,6 +1,6 @@
 {
   "name": "stayclassy",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "The simplest JS utility for joining CSS classnames.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
