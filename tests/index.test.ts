@@ -1,5 +1,8 @@
 import stayClassy from "../lib";
 
+type testItems = [string[], {}, string];
+type testTypes = testItems[];
+
 const tests = [
   [[], {}, ""],
   [["fixed-one"], {}, "fixed-one"],
@@ -28,11 +31,11 @@ const tests = [
     { "dynamic-one": false, "dynamic-two": false },
     "fixed-one fixed-two",
   ],
-];
+] as testTypes;
 
 it("outputs classnames correctly", () => {
   tests.forEach((test) => {
-    const classnames = stayClassy(test[0] as [], test[1]);
+    const classnames = stayClassy(test[0], test[1]);
 
     expect(classnames).toBe(test[2]);
   });
